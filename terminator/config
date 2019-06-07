@@ -1,0 +1,24 @@
+[global_config]
+  enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#555753"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+  [[Arthur]]
+    background_color = "#1e2127"
+    cursor_color = "#676c76"
+    foreground_color = "#5c6370"
+    palette = "#000000:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#abb2bf:#5c6370:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#fffefe"
+  [[Ocean dark]]
+    cursor_color = "#aaaaaa"
